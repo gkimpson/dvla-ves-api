@@ -54,7 +54,7 @@ class VehiclesController extends Controller
             'registrationNumber' => $registration_number,
         ]);        
 
-        dd($response->json());        
+        return $response->json();
     }
 
     /**
